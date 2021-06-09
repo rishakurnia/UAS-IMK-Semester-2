@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu-toggle {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: helvetica;
+}
+p {
+  font-family: calibri;
+}
+
+article {
+  width: 98.8%;
+  height: auto;
+  border-radius: 3px;
+  margin: 5px 5px 5px 5px;
+  clear: both;
+}
+
+article p {
+  padding: 5px 6px 5px 5px;
+  line-height: 1.5;
+}
+article .konten {
+  width: 10%;
+  height: auto;
+  margin-left: 55px;
+  background-color: #ddd;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+
+article .isi {
+  width: 98.5%;
+  height: auto;
+  margin: 5px 5px 5px 5px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+article .isi .judul {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+article .isi p {
+  margin-top: 0;
+}
+article .isi img {
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+
+article .konten img {
+  width: 95.8%;
+  height: 150px;
+  margin: 5px 5px 5px 5px;
+}
+article .konten:hover {
+  opacity: 0.9;
+}
+article .konten .judul a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: large;
+  color: #020101;
+}
+
+article .konten a:hover {
+  opacity: 0.9;
+}
+
+/* CSS FOOTER */
+.footer p {
+  font-family: candara;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+.footer .kotak1 {
+  margin-top: 50px;
+  background-color: #40e0d0;
+  width: 100%;
+}
+.footer .kotak1 h1 {
+  text-align: center;
+  font-size: 31px;
+  padding: 10px 0;
+}
+.footer img {
+  width: 50px;
+  margin: 0 3px;
+}
+.footer img:hover {
+  transform: scale(1.1);
+}
+.footer .kotak1 p {
+  text-align: center;
+  padding: 2px 90px;
+}
+.bawah {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.bawah h1 {
+  line-height: 40px;
+  font-size: 20px;
+}
+.kotak1 .js {
+  width: 100%;
+  text-align: center;
+
+  margin: 25px auto;
+}
+/* Akhir Footer */
+
+/* Kategori */
+.prestasi {
+  background-color: #1bbff9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.prestasi .kotak .foto img {
+  height: 55px;
+  margin: 20px 0;
+}
+.kotak {
+  text-align: center;
+  width: 20%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  margin: 30px 0;
+  margin-left: 30px;
+}
+.kotak .nice {
+  line-height: 1.6;
+}
+.kotak .button button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  width: 180px;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Artikel */
+.main .berita-judul h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .berita {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.main .berita h1 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+}
+.main .berita p {
+  font-size: 16px;
+
+  padding: 5px 10px;
+}
+.main .berita .beri {
+  width: 30%;
+  box-shadow: 2px 2px #ddd;
+  margin: 15px auto;
+  padding: 10px 3px;
+  border-radius: 1px;
+  background-color: #1bbff9;
+}
+/* Akhir Artikel */
+
+/*Header Pembuka*/
+
+.main .header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  z-index: 10000000;
+}
+.main .header img {
+  position: absolute;
+  margin-left: 50%;
+  width: 60px;
+  height: 60px;
+}
+/*Header Penutup*/
+
+/*<!-- Navbar -->*/
+.main .atas {
+  width: 100%;
+  height: 50px;
+  background-color: #1bbff9;
+}
+.main .atas ul li {
+  display: inline-block;
+  line-height: 50px;
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.main .atas ul li:hover {
+  color: white;
+  font-size: 20px;
+
+  background-color: #40e0d0;
+}
+.nav .hidup {
+  margin-left: 20px;
+}
+
+/* Tutup Navbar */
+
+/*<!-- penutup atas -->*/
+
+/*<!-- pembuka tengah -->*/
+.main .tengah {
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+}
+.tengah img {
+  height: 80vh;
+  width: 90vw;
+  padding-top: 20px;
+  padding-left: 65px;
+}
+.berita-judul h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.berita-judul.warna h1 {
+  padding-top: 50px;
+  font-size: 30px;
+  background-color: #1bbff9;
+}
+/*<!-- penutup tengah -->*/
+
+/* contact */
+#contact {
+  background-color: white;
+  padding: 50px 0px 50px 0px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: helvetica;
+  color: black;
+  margin-left: 60px;
+}
+
+.berita-judul h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-top: 60px;
